@@ -19,12 +19,10 @@
 .header__link {
   border-bottom: 1px solid black;
   text-decoration: none;
-  padding-right: 3px;
 }
 
 .header__link_active {
   border-bottom: none;
-  padding-right: 0;
 }
 
 .header__links-list-item_no-bullit {
@@ -222,7 +220,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding: 0 24px 180px 24px;
+  padding: 0 24px 156px 24px;
   column-gap: 25px;
 }
 
@@ -255,9 +253,6 @@
 .about__text {
   font-size: 20px;
   line-height: 24px;
-}
-
-.about__text:first-of-type {
   margin-bottom: 24px;
 }
 
